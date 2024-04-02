@@ -75,9 +75,9 @@ public class NewsDetail extends Fragment {
 
     public List<NewsItem> getRelatedNews() {
         List<NewsItem> relatedNewsItems = new ArrayList<>();
-        relatedNewsItems.add(new NewsItem("Title 1", "Description 1", "https://media.wired.com/photos/598e35fb99d76447c4eb1f28/master/pass/phonepicutres-TA.jpg"));
-        relatedNewsItems.add(new NewsItem("Title 4", "Description 1", "https://media.wired.com/photos/598e35fb99d76447c4eb1f28/master/pass/phonepicutres-TA.jpg"));
-        relatedNewsItems.add(new NewsItem("Title 31", "Description 1", "https://media.wired.com/photos/598e35fb99d76447c4eb1f28/master/pass/phonepicutres-TA.jpg"));
+        relatedNewsItems.add(new NewsItem("Lorem ipsum", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ", "https://picsum.photos/800/700"));
+        relatedNewsItems.add(new NewsItem("Lorem ipsum", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ", "https://picsum.photos/800/700"));
+        relatedNewsItems.add(new NewsItem("Lorem ipsum", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ", "https://picsum.photos/800/700"));
         return relatedNewsItems;
     }
 
