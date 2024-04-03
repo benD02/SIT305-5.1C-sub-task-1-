@@ -47,7 +47,6 @@ public class NewsDetail extends Fragment {
         LinearLayoutManager horizontalLayoutManager = new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false);
         relatedNewsRecyclerView.setLayoutManager(horizontalLayoutManager);
 
-        // Assuming NewsAdapter is designed to handle lists of NewsItem objects
         NewsAdapter relatedNewsAdapter = new NewsAdapter(relatedNewsItems, new NewsAdapter.NewsItemClickListener() {
             @Override
             public void onNewsItemClick(NewsItem newsItem) {
